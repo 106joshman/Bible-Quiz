@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Bible Quiz Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="quiz">
+        <!-- basic title display head -->
+        <div class="title">
+          <h2>Simple Bible Quiz</h2>
+        </div>
+        <!-- progress of questions answered -->
+        <div class="base-progress">
+          <p id="progress">Question X of Y</p>
+        </div>
+        <!-- fetches questions dynamically -->
+        <div class="display">
+          <p id="question"></p>
+        </div>
+        <!-- answer buttons -->
+        <div class="buttons">
+          <div class="row">
+            <button id="btn0"><span id="choice0"></span></button>
+            <button id="btn1"><span id="choice1"></span></button>
+          </div>
+          <div class="row">
+            <button id="btn2"><span id="choice2"></span></button>
+            <button id="btn3"><span id="choice3"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript file link -->
+    <script src="/index.js"></script>
+  </body>
+</html>
