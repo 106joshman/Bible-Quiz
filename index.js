@@ -76,10 +76,10 @@ function showScores() {
 // questions here
 var questions = [
     new Question("How many books are there in the Bible?", [27, 39, 66,75], 66),
-    new Question("Which is the last of the gospels?", ["Mark", "Matthew", "John", "Luke"], "John"),
+    new Question("Which is the last of the gospels?", ["Mark", "John", "Matthew", "Luke"], "John"),
     new Question("Which of these is a book of prophecy?", ["Joshua", "Nehemiah", "Ezra", "Nahum"], "Nahum"),
     new Question("Who wrote the book of Acts?", ["Luke", "Paul", "John", "James"], "Luke"),
-    new Question("How many Psalms are there in the Bible?", [119, 134, 150, 175], 150),
+    new Question("How many Psalms are there in the Bible?", [150, 119, 134, 175], 150),
     new Question("Which prophet tried to escape from preaching God's word in Nineveh?", ["Haggai", "Micah", "Jonah", "Nahum"], "Jonah"),
     new Question("Which of these books is part of the Pentateuch?", ["Exodus", "Joshua", "Daniel", "judges"], "Exodus"),
     new Question("in which book would you find the record of Balaam and his donkey?", ["1 Chronicles", "Ecclesiastes", "Ruth", "Numbers"], "Numbers"),

@@ -69,9 +69,3 @@ body{
     color: #1120a0;
     font-size: 30px;
 }
-
-#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
-    cursor: pointer;
-    background-color: #382848;
-    color: white;
-}
